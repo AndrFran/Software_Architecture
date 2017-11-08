@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c95e7d86e2bc4cc7b2486b626bd069d5" Name="Diagram1">
+        <EntityTypeShape EntityType="LabPIModel.Answer" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPIModel.Cell" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPIModel.Constructor" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPIModel.Option" Width="1.5" PointX="9.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPIModel.Report" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPIModel.Statistic" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPIModel.Test" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPIModel.User_of_labPI" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="LabPIModel.R_7" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPIModel.R_10" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPIModel.R_12" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPIModel.R_8" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPIModel.R_6" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPIModel.R_5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

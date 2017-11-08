@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище LabPIModelContainer" CdmEntityContainer="LabPIContext">
+    <EntitySetMapping Name="Answers">
+      <EntityTypeMapping TypeName="LabPIModel.Answer">
+        <MappingFragment StoreEntitySet="Answer">
+          <ScalarProperty Name="id_answer" ColumnName="id_answer" />
+          <ScalarProperty Name="Value_of_answer" ColumnName="Value_of_answer" />
+          <ScalarProperty Name="IsCorrect" ColumnName="IsCorrect" />
+          <ScalarProperty Name="id_test" ColumnName="id_test" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cells">
+      <EntityTypeMapping TypeName="LabPIModel.Cell">
+        <MappingFragment StoreEntitySet="Cell">
+          <ScalarProperty Name="id_cell" ColumnName="id_cell" />
+          <ScalarProperty Name="cell_summary" ColumnName="cell_summary" />
+          <ScalarProperty Name="id_constructor" ColumnName="id_constructor" />
+          <ScalarProperty Name="id_statistic" ColumnName="id_statistic" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Constructors">
+      <EntityTypeMapping TypeName="LabPIModel.Constructor">
+        <MappingFragment StoreEntitySet="Constructors">
+          <ScalarProperty Name="id_constructor" ColumnName="id_constructor" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="topic" ColumnName="topic" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="id_statistic" ColumnName="id_statistic" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Options">
+      <EntityTypeMapping TypeName="LabPIModel.Option">
+        <MappingFragment StoreEntitySet="Options">
+          <ScalarProperty Name="id_option" ColumnName="id_option" />
+          <ScalarProperty Name="option_value" ColumnName="option_value" />
+          <ScalarProperty Name="option_IsCorrect" ColumnName="option_IsCorrect" />
+          <ScalarProperty Name="id_cell" ColumnName="id_cell" />
+          <ScalarProperty Name="id_constructor" ColumnName="id_constructor" />
+          <ScalarProperty Name="id_statistic" ColumnName="id_statistic" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reports">
+      <EntityTypeMapping TypeName="LabPIModel.Report">
+        <MappingFragment StoreEntitySet="Report">
+          <ScalarProperty Name="id_report" ColumnName="id_report" />
+          <ScalarProperty Name="link_doc" ColumnName="link_doc" />
+          <ScalarProperty Name="id_statistic" ColumnName="id_statistic" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Statistics">
+      <EntityTypeMapping TypeName="LabPIModel.Statistic">
+        <MappingFragment StoreEntitySet="Statistic">
+          <ScalarProperty Name="id_statistic" ColumnName="id_statistic" />
+          <ScalarProperty Name="res" ColumnName="res" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tests">
+      <EntityTypeMapping TypeName="LabPIModel.Test">
+        <MappingFragment StoreEntitySet="Test">
+          <ScalarProperty Name="id_test" ColumnName="id_test" />
+          <ScalarProperty Name="summary" ColumnName="summary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_of_labPI">
+      <EntityTypeMapping TypeName="LabPIModel.User_of_labPI">
+        <MappingFragment StoreEntitySet="User_of_labPI">
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="nickname" ColumnName="nickname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

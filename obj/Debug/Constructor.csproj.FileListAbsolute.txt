@@ -1,0 +1,110 @@
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\bin\Debug\Constructor.exe.config
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\bin\Debug\Constructor.exe
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\bin\Debug\Constructor.pdb
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\bin\Debug\System.Net.Http.dll
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\bin\Debug\System.Net.Http.xml
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.csprojResolveAssemblyReference.cache
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\MainWindow.g.cs
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\App.g.cs
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor_MarkupCompile.cache
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor_MarkupCompile.lref
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\App.baml
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\MainWindow.baml
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.g.resources
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.Properties.Resources.resources
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.csproj.GenerateResource.Cache
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.exe
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.pdb
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Home.g.cs
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Home.baml
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Constructor.g.cs
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Reporting.g.cs
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Theoria.g.cs
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Constructor.baml
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Reporting.baml
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Theoria.baml
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Testing.g.cs
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor_Content.g.cs
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\bin\Debug\EntityFramework.dll
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\bin\Debug\EntityFramework.xml
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\bin\Debug\ru\EntityFramework.resources.dll
+D:\MegaCLOUD\NULP_Jobs\4 курс\7семестр\Архітектура ПЗ\Лаби\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Testing.baml
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Constructor.exe.config
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.exe
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.pdb
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Constructor.exe
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Constructor.pdb
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\EntityFramework.dll
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\EntityFramework.xml
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\ru\EntityFramework.resources.dll
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.csprojResolveAssemblyReference.cache
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Constructor.g.cs
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Home.g.cs
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Reporting.g.cs
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Testing.g.cs
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Theoria.g.cs
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\MainWindow.g.cs
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\App.g.cs
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor_Content.g.cs
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor_MarkupCompile.cache
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor_MarkupCompile.lref
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\App.baml
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Constructor.baml
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Home.baml
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Reporting.baml
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Testing.baml
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Theoria.baml
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\MainWindow.baml
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.g.resources
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.Properties.Resources.resources
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.csproj.GenerateResource.Cache
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\one.txt
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Види тестування.txt
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Методи тестування.txt
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Поняття тестування.txt
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Види тест-кейсів.txt
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Переваги та недоліки.txt
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Баг.txt
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Вимоги.txt
+D:\IKHI\7 semestr\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Основні поля.txt
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Constructor.exe.config
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.exe
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.pdb
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\one.txt
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Види тестування.txt
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Методи тестування.txt
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Поняття тестування.txt
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Види тест-кейсів.txt
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Переваги та недоліки.txt
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Баг.txt
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Вимоги.txt
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Content\Основні поля.txt
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Constructor.exe
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\Constructor.pdb
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\EntityFramework.dll
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\EntityFramework.xml
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.csprojResolveAssemblyReference.cache
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Constructor.g.cs
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Home.g.cs
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Reporting.g.cs
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Testing.g.cs
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Theoria.g.cs
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\MainWindow.g.cs
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\App.g.cs
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor_Content.g.cs
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor_MarkupCompile.cache
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor_MarkupCompile.lref
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\App.baml
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Constructor.baml
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Home.baml
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Reporting.baml
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Testing.baml
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\GUI\Theoria.baml
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\MainWindow.baml
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.g.resources
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.Properties.Resources.resources
+C:\Users\djosa\Desktop\Архітектура\ПРОЕКТ\Constructor\Constructor\obj\Debug\Constructor.csproj.GenerateResource.Cache
+C:\Users\corov\Downloads\Telegram Desktop\Constructor\bin\Debug\Constructor.exe.config
+C:\Users\corov\Downloads\Telegram Desktop\Constructor\obj\Debug\Constructor.exe
+C:\Users\corov\Downloads\Telegram Desktop\Constructor\obj\Debug\Constructor.pdb

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище LabPIModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityType Name="Answer">
+    <Key>
+      <PropertyRef Name="id_answer" />
+      <PropertyRef Name="id_test" />
+    </Key>
+    <Property Name="id_answer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Value_of_answer" Type="varchar(max)" />
+    <Property Name="IsCorrect" Type="bit" />
+    <Property Name="id_test" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cell">
+    <Key>
+      <PropertyRef Name="id_cell" />
+      <PropertyRef Name="id_constructor" />
+      <PropertyRef Name="id_statistic" />
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_cell" Type="int" Nullable="false" />
+    <Property Name="cell_summary" Type="varchar" MaxLength="20" />
+    <Property Name="id_constructor" Type="int" Nullable="false" />
+    <Property Name="id_statistic" Type="int" Nullable="false" />
+    <Property Name="id_user" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Constructors">
+    <Key>
+      <PropertyRef Name="id_constructor" />
+      <PropertyRef Name="id_statistic" />
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_constructor" Type="int" Nullable="false" />
+    <Property Name="type" Type="varchar" MaxLength="20" />
+    <Property Name="topic" Type="varchar" MaxLength="20" />
+    <Property Name="content" Type="varchar" MaxLength="20" />
+    <Property Name="id_statistic" Type="int" Nullable="false" />
+    <Property Name="id_user" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Options">
+    <Key>
+      <PropertyRef Name="id_option" />
+      <PropertyRef Name="id_cell" />
+      <PropertyRef Name="id_constructor" />
+      <PropertyRef Name="id_statistic" />
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_option" Type="int" Nullable="false" />
+    <Property Name="option_value" Type="varchar" MaxLength="20" />
+    <Property Name="option_IsCorrect" Type="int" />
+    <Property Name="id_cell" Type="int" Nullable="false" />
+    <Property Name="id_constructor" Type="int" Nullable="false" />
+    <Property Name="id_statistic" Type="int" Nullable="false" />
+    <Property Name="id_user" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="id_report" />
+      <PropertyRef Name="id_statistic" />
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_report" Type="int" Nullable="false" />
+    <Property Name="link_doc" Type="varchar" MaxLength="20" />
+    <Property Name="id_statistic" Type="int" Nullable="false" />
+    <Property Name="id_user" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Statistic">
+    <Key>
+      <PropertyRef Name="id_statistic" />
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_statistic" Type="int" Nullable="false" />
+    <Property Name="res" Type="int" />
+    <Property Name="id_user" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Test">
+    <Key>
+      <PropertyRef Name="id_test" />
+    </Key>
+    <Property Name="id_test" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="summary" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="User_of_labPI">
+    <Key>
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_user" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="20" />
+    <Property Name="surname" Type="char" MaxLength="18" />
+    <Property Name="nickname" Type="varchar" MaxLength="20" />
+    <Property Name="email" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="R_10">
+    <End Role="Cell" Type="Self.Cell" Multiplicity="1" />
+    <End Role="Options" Type="Self.Options" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cell">
+        <PropertyRef Name="id_cell" />
+        <PropertyRef Name="id_constructor" />
+        <PropertyRef Name="id_statistic" />
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="Options">
+        <PropertyRef Name="id_cell" />
+        <PropertyRef Name="id_constructor" />
+        <PropertyRef Name="id_statistic" />
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_12">
+    <End Role="Constructors" Type="Self.Constructors" Multiplicity="1" />
+    <End Role="Cell" Type="Self.Cell" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Constructors">
+        <PropertyRef Name="id_constructor" />
+        <PropertyRef Name="id_statistic" />
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="Cell">
+        <PropertyRef Name="id_constructor" />
+        <PropertyRef Name="id_statistic" />
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_5">
+    <End Role="User_of_labPI" Type="Self.User_of_labPI" Multiplicity="1" />
+    <End Role="Statistic" Type="Self.Statistic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User_of_labPI">
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="Statistic">
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_6">
+    <End Role="Statistic" Type="Self.Statistic" Multiplicity="1" />
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Statistic">
+        <PropertyRef Name="id_statistic" />
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="id_statistic" />
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_7">
+    <End Role="Test" Type="Self.Test" Multiplicity="1" />
+    <End Role="Answer" Type="Self.Answer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Test">
+        <PropertyRef Name="id_test" />
+      </Principal>
+      <Dependent Role="Answer">
+        <PropertyRef Name="id_test" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_8">
+    <End Role="Statistic" Type="Self.Statistic" Multiplicity="1" />
+    <End Role="Constructors" Type="Self.Constructors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Statistic">
+        <PropertyRef Name="id_statistic" />
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="Constructors">
+        <PropertyRef Name="id_statistic" />
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище LabPIModelContainer">
+    <EntitySet Name="Answer" EntityType="Self.Answer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cell" EntityType="Self.Cell" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Constructors" EntityType="Self.Constructors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Options" EntityType="Self.Options" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Report" EntityType="Self.Report" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Statistic" EntityType="Self.Statistic" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Test" EntityType="Self.Test" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User_of_labPI" EntityType="Self.User_of_labPI" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="R_10" Association="Self.R_10">
+      <End Role="Cell" EntitySet="Cell" />
+      <End Role="Options" EntitySet="Options" />
+    </AssociationSet>
+    <AssociationSet Name="R_12" Association="Self.R_12">
+      <End Role="Constructors" EntitySet="Constructors" />
+      <End Role="Cell" EntitySet="Cell" />
+    </AssociationSet>
+    <AssociationSet Name="R_5" Association="Self.R_5">
+      <End Role="User_of_labPI" EntitySet="User_of_labPI" />
+      <End Role="Statistic" EntitySet="Statistic" />
+    </AssociationSet>
+    <AssociationSet Name="R_6" Association="Self.R_6">
+      <End Role="Statistic" EntitySet="Statistic" />
+      <End Role="Report" EntitySet="Report" />
+    </AssociationSet>
+    <AssociationSet Name="R_7" Association="Self.R_7">
+      <End Role="Test" EntitySet="Test" />
+      <End Role="Answer" EntitySet="Answer" />
+    </AssociationSet>
+    <AssociationSet Name="R_8" Association="Self.R_8">
+      <End Role="Statistic" EntitySet="Statistic" />
+      <End Role="Constructors" EntitySet="Constructors" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
